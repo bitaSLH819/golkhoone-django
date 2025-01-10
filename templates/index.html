@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block title %}
-Django CRUD | Create & Read & Delete
+golkhoone-crud
 {% endblock %}
 
 {% block body %}
@@ -10,7 +10,7 @@ Django CRUD | Create & Read & Delete
     <div class="form-group">
         <label for="firstname">نام گل</label>
         <input type="text" name="first" class="form-control" style="width:30%;" required="required"/>
-        <label for="lastname">شرایط نگهداری</label>
+        <label for="lastname">نوع گل</label>
         <input type="text" name="last" class="form-control" style="width:30%;" required="required"/>
         <button type="submit" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-plus"></span> ADD</button>
     </div>
@@ -21,8 +21,8 @@ Django CRUD | Create & Read & Delete
     <thead class="alert-warning">
         <tr>
             <th>ID</th>
-            <th>Firstname</th>
-            <th>Lastname</th>
+            <th>flowers</th>
+            <th>conditions</th>
             <th>Action</th>
         </tr>
     </thead>
